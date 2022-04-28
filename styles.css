@@ -1,0 +1,156 @@
+*{
+    font-family: 'Orelega One', cursive;
+    margin: 0;
+    padding: 0;
+}
+.body{
+    
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background: linear-gradient(45deg, #8c8cd9 40%, #6666cc 100%);
+}
+.navLogo{
+    margin: 10px;
+    width: 300px;
+    height: 50px;
+    margin-left: 50px;
+}
+.navItems{
+    width: 60%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-left: 25px;
+}
+.navItem{
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navItem:hover{
+    border-bottom: 2px solid pink;
+    text-transform: uppercase;
+}
+.header{
+    height: calc(100vh - 55px);
+    display: flex;
+    background-color: #e6f5ff;
+}
+.headdiv{
+    width: 100%;
+    overflow: hidden;
+}
+.headerText{
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6666cc;
+    font-weight: 800;
+}
+.dytext{
+    font-size: 40px;
+}
+.dytext li{
+    list-style: none;
+    padding: 20px;
+}
+.headerImage{
+    width: 100%;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.about{
+    height: 100vh;
+    position: relative;
+    background-color: #e6ffe6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutWrap{
+    background-image: url("./images/IMG_20181201_120612.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-clip: polygon(30% 0, 80% 0, 63% 100%, 10% 100%); */
+    clip-path: polygon(30% 0, 80% 0, 63% 100%, 10% 100%);
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+.quote{
+    font-size: 50px;
+}
+.aboutdesc{
+    position: relative;
+    z-index: 1;
+    width: 75%;
+    font-size: 30px;
+    line-height: 35px;
+    color: aliceblue;
+    padding: 50px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+
+.contact{
+    display: flex;
+    height: 500px;
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #4d4d4d;
+}
+.contactInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.contactItem{
+    margin: 25px;
+    font-size: 25px;  
+}
+.mailto, .wame{
+    text-decoration: none;
+    color: white;
+}
+.conIcon{
+    padding: 10px 15px;
+}
+.socialIcon{
+    font-size: 60px;
+    margin: 10px;
+    padding: 25px 10px;
+
+}
+.mapemb{
+    margin: 25px;
+    padding: 25px;
+    border: 5px double darkgray;
+    border-radius: 10px;
+}
+
+.copyright{
+    height: 150px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    color: white;
+    flex-direction: column;
+}
